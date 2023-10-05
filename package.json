@@ -1,0 +1,27 @@
+{
+  "$schema": "https://json.schemastore.org/package.json",
+  "name": "nuxt3-vuex-custom-global-properties",
+  "private": true,
+  "packageManager": "pnpm@8.8.0",
+  "engines": {
+    "node": "20.2.0",
+    "pnpm": "8.8.0"
+  },
+  "scripts": {
+    "prepare": "nuxi prepare",
+    "build": "nuxi build",
+    "dev": "nuxi dev",
+    "start": "nuxi preview"
+  },
+  "dependencies": {
+    "nuxt": "3.7.4",
+    "vue": "3.3.4",
+    "vue-router": "4.2.5",
+    "vuex": "4.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "18.16.19",
+    "typescript": "5.1.6",
+    "vue-tsc": "1.8.15"
+  }
+}
